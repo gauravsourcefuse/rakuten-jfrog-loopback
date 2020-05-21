@@ -23,6 +23,7 @@ Start server
 npm start
 ```
 The JFrog test API exposed are as follows:
+
 - PUT `/artifacts`
 
 	To upload a bundle
@@ -32,6 +33,8 @@ The JFrog test API exposed are as follows:
 	- `bundle`: name of bundle, name of application or the application submitted by vendor e.g. omnicare
 	- `org`: Organization. i.e. repository name
 	- `revision`: The revision for testing purpose. It will be auto-managed after implementation
+
+
 - GET `/artifacts/{org}/{bundle}/{revision}`
 
 	To download a bundle
@@ -42,21 +45,6 @@ The JFrog test API exposed are as follows:
 
 
 # Documentation
----
-title: rakuten-jfrog-loopback v1.0.0
-language_tabs:
-  - javascript: JavaScript
-  - javascript--nodejs: Node.JS
-language_clients:
-  - javascript: request
-  - javascript--nodejs: ""
-toc_footers: []
-includes: []
-search: false
-highlight_theme: darkula
-headingLevel: 2
-
----
 
 <!-- Generator: Widdershins v4.0.1 -->
 
